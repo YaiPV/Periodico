@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgb(234, 225, 225);
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(93, 83, 83);
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a{
+    color: rgb(93, 83, 83);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active,a:hover{
+border: 1px solid white;
+transition: .5s;
+}
+
+.line{
+    border-bottom: 5px solid #ccc;
+    display: block;
+    
+}
+
+.line2{
+    border-bottom: 2px solid black;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+
+.topic{
+    color: rgba(81, 75, 61, 0.377);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+    padding-left: 200px;
+}
+
+.top{
+    color: rgb(93, 83, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-left: 30px;
+    text-align: flex;
+}
+
+.pre{
+    color: rgba(81, 75, 61, 0.377);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: large;
+    padding-top: 15px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.helper {
+display: inline-block;
+vertical-align: middle;
+height: 100%;
+
+}
+
+.foto{
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    padding-right: 50px;
+    
+}
+
+.card-container{
+    color: rgb(93, 83, 83);
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    display: flex;
+    padding-left: 200px;
+}
+
+.navlink {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.4ms;
+    margin: 0.5rem;
+  }
+
+  .container {
+    margin: 3rem ;
+  }
+
+  .content{
+    font-size: medium;
+  }
+
+  .author {
+    font-size: small;
+    margin-top: 10px;
+  }
+
+.date {
+    font-size: small;
+    text-align: center ;
+}
+
+.toped2 {
+
+    font-size: medium;
+    padding-top: 10px; 
+}
+
+.footer{
+    display: block;
+}
+
+.titulofoot{
+color: rgb(79, 75, 75);
+padding-top: 10px;
+padding-bottom: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.space{
+    padding-left: 30px;
+}
+
+.footdiv {
+    display: inline-block;
+    padding: 30px 30px 30px 50px;
+}
+
+.linefoot{
+    width: 10px;
+}
+
+.card {
+    padding-left: 100px;
+    justify-content: center;
+}
+
+.space2 {
+    padding-left: 50px;
+}
